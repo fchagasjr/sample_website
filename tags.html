@@ -4,13 +4,14 @@
   <title>HTML Tags</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-  <div>
-    <a href="index.html">Home</a>
-    <a href="tags.html">HTML Tags</a>
-    <a href="moby_dick.html">Moby Dick</a>
+  <div class="nav-menu">
+    <a href="index.html" class="nav-item">Home</a>
+    <a href="tags.html" class="nav-item nav-spacing">HTML Tags</a>
+    <a href="moby_dick.html" class="nav-item nav-spacing">Moby Dick</a>
   </div>
 
   <h1>Important HTML tags</h1>
@@ -27,6 +28,47 @@
     The tables below don't include all HTML tags, but they do list many of the most important ones.
   </p>
 
+  <h2>Document Tags</h2>
+
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Purpose</th>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px;"><code>html</code></td>
+      <td style="padding: 10px;">HTML Specifier</td>
+      <td style="padding: 10px;">Define as HTML document</td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px;"><code>head</code></td>
+      <td style="padding: 10px;">Page Head</td>
+      <td style="padding: 10px;">Contains metadata used by the browser but not rendered to the user</td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px;"><code>body</code></td>
+      <td style="padding: 10px;">Page Body</td>
+      <td style="padding: 10px;">Contains the page information rendered by the browser</td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px;"><code>title</code></td>
+      <td style="padding: 10px;">Page Title</td>
+      <td style="padding: 10px;">Contains the page title that appears on the browser tab/window</td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px;"><code>meta</code></td>
+      <td style="padding: 10px;">Meta</td>
+      <td style="padding: 10px;">Contains additional information necessary to render the page properly, like the characters set</td>
+    </tr>
+
+  </table>
+
   <h2>Block Elements</h2>
 
   <table>
@@ -38,63 +80,63 @@
     </tr>
 
     <tr>
-      <td><code>h1</code>&ndash;<code>h6</code></td>
-      <td>headings</td>
-      <td>include a heading (levels 1&ndash;6)</td>
+      <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+      <td style="padding: 10px;">headings</td>
+      <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
     </tr>
 
     <tr>
-      <td><code>p</code></td>
-      <td>paragraph</td>
-      <td>include a paragraph text</td>
+      <td style="padding: 10px;"><code>p</code></td>
+      <td style="padding: 10px;">paragraph</td>
+      <td style="padding: 10px;">include a paragraph text</td>
     </tr>
 
     <tr>
-      <td><code>table</code></td>
-      <td>table</td>
-      <td>include a table</td>
+      <td style="padding: 10px;"><code>table</code></td>
+      <td style="padding: 10px;">table</td>
+      <td style="padding: 10px;">include a table</td>
     </tr>
 
     <tr>
-      <td><code>tr</code></td>
-      <td>table row</td>
-      <td>include a row of data</td>
+      <td style="padding: 10px;"><code>tr</code></td>
+      <td style="padding: 10px;">table row</td>
+      <td style="padding: 10px;">include a row of data</td>
     </tr>
 
     <tr>
-      <td><code>th</code></td>
-      <td>table heading</td>
-      <td>make a table header</td>
+      <td style="padding: 10px;"><code>th</code></td>
+      <td style="padding: 10px;">table heading</td>
+      <td style="padding: 10px;">make a table header</td>
     </tr>
 
     <tr>
-      <td><code>td</code></td>
-      <td>table data</td>
-      <td>include a table data cell</td>
+      <td style="padding: 10px;"><code>td</code></td>
+      <td style="padding: 10px;">table data</td>
+      <td style="padding: 10px;">include a table data cell</td>
     </tr>
 
     <tr>
-      <td><code>header</code></td>
-      <td>header</td>
-      <td>create a header division</td>
+      <td style="padding: 10px;"><code>header</code></td>
+      <td style="padding: 10px;">header</td>
+      <td style="padding: 10px;">create a header division</td>
     </tr>
 
     <tr>
-      <td><code>div</code></td>
-      <td>div</td>
-      <td>create a block division</td>
+      <td style="padding: 10px;"><code>div</code></td>
+      <td style="padding: 10px;">div</td>
+      <td style="padding: 10px;">create a block division</td>
     </tr>
 
     <tr>
-      <td><code>ol</code></td>
-      <td>ordered list</td>
-      <td>create an ordered list</td>
+      <td style="padding: 10px;"><code>ol</code></td>
+      <td style="padding: 10px;">ordered list</td>
+      <td style="padding: 10px;">create an ordered list</td>
     </tr>
 
     <tr>
-      <td><code>ul</code></td>
-      <td>unordered list</td>
-      <td>create an unordered list</td>
+      <td style="padding: 10px;"><code>ul</code></td>
+      <td style="padding: 10px;">unordered list</td>
+      <td style="padding: 10px;">create an unordered list</td>
     </tr>
 
   </table>
@@ -112,59 +154,59 @@
     </tr>
 
     <tr>
-      <td><code>em</code></td>
-      <td>emphasized</td>
-      <td>make emphasized text</td>
-      <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
-      <td><em>technical sophistication</em></td>
+      <td style="padding: 10px;"><code>em</code></td>
+      <td style="padding: 10px;">emphasized</td>
+      <td style="padding: 10px;">make emphasized text</td>
+      <td style="padding: 10px;"><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
+      <td style="padding: 10px;"><em>technical sophistication</em></td>
     </tr>
 
     <tr>
-      <td><code>strong</code></td>
-      <td>strong</td>
-      <td>make strong text</td>
-      <td><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
-      <td><strong>at least a billion people</strong></td>
+      <td style="padding: 10px;"><code>strong</code></td>
+      <td style="padding: 10px;">strong</td>
+      <td style="padding: 10px;">make strong text</td>
+      <td style="padding: 10px;"><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
+      <td style="padding: 10px;"><strong>at least a billion people</strong></td>
     </tr>
 
     <tr>
-      <td><code>a</code></td>
-      <td>anchor</td>
-      <td>make hyperlink</td>
-      <td><code>&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;</code></td>
-      <td><a href="https://learnenough.com/">Learn Enough</a></td>
+      <td style="padding: 10px;"><code>a</code></td>
+      <td style="padding: 10px;">anchor</td>
+      <td style="padding: 10px;">make hyperlink</td>
+      <td style="padding: 10px;"><code>&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;</code></td>
+      <td style="padding: 10px;"><a href="https://learnenough.com/">Learn Enough</a></td>
     </tr>
 
     <tr>
-      <td><code>img</code></td>
-      <td>image</td>
-      <td>include an image</td>
-      <td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code></td>
-      <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+      <td style="padding: 10px;"><code>img</code></td>
+      <td style="padding: 10px;">image</td>
+      <td style="padding: 10px;">include an image</td>
+      <td style="padding: 10px;"><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code></td>
+      <td style="padding: 10px;"><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
     </tr>
 
     <tr>
-      <td><code>code</code></td>
-      <td>code</td>
-      <td>insert code text</td>
-      <td><code>&lt;code&gt;foo = function(bar)&lt;/code&gt;</code></td>
-      <td><code>foo = function(bar)</code></td>
+      <td style="padding: 10px;"><code>code</code></td>
+      <td style="padding: 10px;">code</td>
+      <td style="padding: 10px;">insert code text</td>
+      <td style="padding: 10px;"><code>&lt;code&gt;foo = function(bar)&lt;/code&gt;</code></td>
+      <td style="padding: 10px;"><code>foo = function(bar)</code></td>
     </tr>
 
     <tr>
-      <td><code>span</code></td>
-      <td>span</td>
-      <td>create an inline division</td>
-      <td><code>This is &lt;span style="color: blue;"&gt;blue&lt;/span&gt;.</code></td>
-      <td>This is <span style="color: blue;">blue</span>.</td>
+      <td style="padding: 10px;"><code>span</code></td>
+      <td style="padding: 10px;">span</td>
+      <td style="padding: 10px;">create an inline division</td>
+      <td style="padding: 10px;"><code>This is &lt;span style="color: blue;"&gt;blue&lt;/span&gt;.</code></td>
+      <td style="padding: 10px;">This is <span style="color: blue;">blue</span>.</td>
     </tr>
 
     <tr>
-      <td><code>li</code></td>
-      <td>list item</td>
-      <td>insert an ordered/unordered list item</td>
-      <td><code>&lt;ol&gt;&lt;li&gt;apple&lt;/li&gt;&lt;li&gt;pear&lt;/li&gt;&lt;/ol&gt;</code></td>
-      <td><ol><li>apple</li><li>pear</li></ol></td>
+      <td style="padding: 10px;"><code>li</code></td>
+      <td style="padding: 10px;">list item</td>
+      <td style="padding: 10px;">insert an ordered/unordered list item</td>
+      <td style="padding: 10px;"><code>&lt;ol&gt;&lt;li&gt;apple&lt;/li&gt;&lt;li&gt;pear&lt;/li&gt;&lt;/ol&gt;</code></td>
+      <td style="padding: 10px;"><ol><li>apple</li><li>pear</li></ol></td>
     </tr>
 
   </table>
